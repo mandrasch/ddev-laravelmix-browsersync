@@ -1,10 +1,21 @@
+# DDEV LaravelMix BrowserSync demo
+
+Live reload changes in scss or js files.
+
+- [DDEV](https://ddev.readthedocs.io/en/stable/)
+- [LaravelMix](https://laravel-mix.com/)
+- new [ddev-browsersync (https version)](https://github.com/drud/ddev-browsersync/pull/21#issuecomment-1302664837)
+
+See https://my-ddev-lab.mandrasch.eu/ for more experiments.
+
+## Local setup 
 
 ```bash
 ddev start
 ddev npm install
 ddev launch
 ddev npm run dev
-# reload browser window, browsersync should work now
+# reload browser window, browsersync should display "browsersync connected"
 ```
 
 ## How was this created?
